@@ -1,0 +1,69 @@
+.ui.menu {
+  border: none;
+  border-radius: 0%;
+  background-color: #2b439c;
+}
+
+.ui.menu .active.item {
+  color: #ffffff;
+  background-color: #15255d !important;
+}
+
+.ui.menu .item {
+  color: #8194db;
+  font-size: 8pt;
+  padding: 0.92857143em 3.142857em;
+}
+
+.ui.menu .item:hover,
+.ui.vertical.menu .item:hover {
+  color: #ffffff !important;
+}
+
+.ui.basic.label {
+  border-radius: 0%;
+  border: none;
+  font-size: 1rem;
+  color: #67686c;
+  padding-left: unset;
+  background: none;
+}
+
+.fidels-container {
+  background: #f0f1f4;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.amount .input > .label {
+  position: absolute;
+  right: 0.2em;
+}
+
+.amount input {
+  padding-right: 2em !important;
+}
+
+.desc {
+    padding: 2em;
+    color: #737171;
+}
+
+.ui.table thead th {
+    border-bottom: none;
+    background: #f0f1f4;
+}
+.ui.table tr td {
+    border-top: none;
+}
